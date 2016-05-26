@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+
+<title>Michael Aragon</title>
+
+<!-- CSS -->	
+<style>
+        
+
+body {
+    font-family: serif,helvetica, arial, monospace;
+    font-size: 12px;
+    text-align: center;
+    background: #CAEAEF;
+    color: #324244;
+    padding-top: 24px;
+    line-height: 1;
+    background-image: url('Blue-Vector-Background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.9;
+    filter:alpha(opacity=80);
+}
+
+main {
+    margin-bottom: 200%;
+}
+
+.floating-menu {
+    font-family: monospace;
+    background: gray;
+    padding: 10px;;
+    width: 130px;
+    z-index: 120;
+    position: fixed;
+    line-height: 1;
+}
+
+ .floating-menu a, 
+    .floating-menu h3 {
+    font-size: 16px;
+    display: block;
+    margin: 0 0.9em;
+    color: white;
+    line-height: 1;
+}
+    <style type="text/css">
+    body {
+        background-color: #ccc324244;
+        margin:80px 80px 100px 100px;
+}
+div#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CAEAEF;
+	background:#333;
+	padding:25px;
+    font-family: monospace;
+    font-size: 25px;
+}
+div#fixedfooter {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#CAEAEF;
+	background:#333;
+	padding:8px;
+    font-family: monospace;
+}
+    
+    p { font-size: 30px; }
+    p2{ font-size: 20px; }
+    
+@font-face {
+  font-family: "monospace";
+  src: url("./monospace.ttf") format("truetype");
+}
+    
+p {
+  font-family: "AMC", monospace;
+  font-weight:bold;  
+
+}
+    
+</style>    
+
+     
+<!-- HTML -->  
+    
+<body>
+    
+<div id="fixedheader">Michael Aragon - Web Developer</div>
+    
+<h1>Page Heading</h1>
+<center><p2>Welcome to my website...take a look around!</p2></center>
+<div id="fixedfooter">Reach me at digitlmic@gmail.com</div>
+    
+</body>
+    
+<main>
+
+<center><p>Hello everyone, My name is Mike and I am a future web developer taking a stroll down the rabbit hole. As I embark on this journey, I will document every website/project I create. So far it has been very rewarding and challenging!<p></center>
+
+    <!---Menu--->
+<nav class="floating-menu">
+
+    <h3> Links below: </h3>
+
+    <a href="https://github.com/digitalmike1">GitHub</a>
+    <a href="https://mikearagon.wordpress.com/">Wordpress</a>
+    <a href="https://www.quora.com/profile/Mike-Aragon-2">Quora</a>
+    <a href="https://www.livecoding.tv/digitalmike/">LiveCoding.TV</a>
+    <a href="Page2.html">My Family</a>
+</nav>
+       
+</main>
+    
+    <!--- Wedding countdown--->
+    
+<center><div class="container">
+    
+	<div class="box"><script type="text/javascript">
+
+today = new Date();
+BigDay = new Date("December 1, 2016");
+msPerDay = 24 * 60 * 60 * 1000 ;
+timeLeft = (BigDay.getTime() - today.getTime());
+e_daysLeft = timeLeft / msPerDay;
+daysLeft = Math.floor(e_daysLeft);
+e_hrsLeft = (e_daysLeft - daysLeft)*24;
+hrsLeft = Math.floor(e_hrsLeft);
+minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+
+        document.write("There are only<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> Until December 1st 2016, my wedding date.<P>");
+       
+
+        </script>
+    </div>
+</html>
+ 
